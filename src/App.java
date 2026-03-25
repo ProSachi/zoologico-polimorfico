@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Animal;
+import model.Gato;
 import model.Perro;
 
 public class App {
@@ -17,6 +18,7 @@ public class App {
         // Instrucción: Cada estudiante debe instanciar su animal aquí
         // Ejemplo: zoologico.add(new Leon("Simba"));
 
+        zoologico.add(new Gato("Kiwi"));
 
 
 
