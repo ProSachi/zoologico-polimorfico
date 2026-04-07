@@ -4,6 +4,7 @@ import java.util.List;
 import model.Animal;
 import model.Lobo;
 import model.Perro;
+import model.Arana;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -18,7 +19,7 @@ public class App {
         // Instrucción: Cada estudiante debe instanciar su animal aquí
         // Ejemplo: zoologico.add(new Leon("Simba"));
             zoologico.add(new Lobo("Robert"));
-
+            zoologico.add(new Arana("Peter"));
 
         // =======================================================
         
