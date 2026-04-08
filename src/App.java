@@ -7,6 +7,11 @@ import model.Perro;
 import model.Rinoceronte;
 import model.Arana;
 import model.Pulga;
+import model.Mosasaurus;
+import model.Plesiosaurus;
+import model.Dakosaurus;
+import model.Axolotl;
+import model.Tarsier;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -21,11 +26,15 @@ public class App {
         // Instrucción: Cada estudiante debe instanciar su animal aquí
         // Ejemplo: zoologico.add(new Leon("Simba"));
 
-            zoologico.add(new Lobo("Robert"));
-            zoologico.add(new Arana("Peter"));
-            zoologico.add(new Pulga("Pulguiña"));
-            zoologico.add(new Rinoceronte("Jerico"));
-
+        zoologico.add(new Lobo("Robert"));
+        zoologico.add(new Arana("Peter"));
+        zoologico.add(new Pulga("Pulguiña"));
+        zoologico.add(new Rinoceronte("Jerico"));
+        zoologico.add(new Mosasaurus("Mosita"));
+        zoologico.add(new Plesiosaurus("Plesio"));
+        zoologico.add(new Dakosaurus("Drakito"));
+        zoologico.add(new Axolotl("Axolotito"));
+        zoologico.add(new Tarsier("Tarsito_cansón"));
 
         // =======================================================
 
