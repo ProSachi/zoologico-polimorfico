@@ -4,6 +4,7 @@ import java.util.List;
 import model.Animal;
 import model.Lobo;
 import model.Perro;
+import model.Arana;
 import model.Pulga;
 
 public class App {
@@ -18,8 +19,11 @@ public class App {
         // ZONA DE TRABAJO ESTUDIANTIL
         // Instrucción: Cada estudiante debe instanciar su animal aquí
         // Ejemplo: zoologico.add(new Leon("Simba"));
-        zoologico.add(new Lobo("Robert"));
-        zoologico.add(new Pulga("Pulguiña"));
+
+            zoologico.add(new Lobo("Robert"));
+            zoologico.add(new Arana("Peter"));
+            zoologico.add(new Pulga("Pulguiña"));
+
 
         // =======================================================
 
