@@ -4,6 +4,7 @@ import java.util.List;
 import model.Animal;
 import model.Lobo;
 import model.Perro;
+import model.Rinoceronte;
 import model.Arana;
 import model.Pulga;
 
@@ -23,6 +24,8 @@ public class App {
             zoologico.add(new Lobo("Robert"));
             zoologico.add(new Arana("Peter"));
             zoologico.add(new Pulga("Pulguiña"));
+            zoologico.add(new Rinoceronte("Jerico"));
+
 
         // =======================================================
 
