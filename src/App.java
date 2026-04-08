@@ -24,7 +24,6 @@ public class App {
             zoologico.add(new Arana("Peter"));
             zoologico.add(new Pulga("Pulguiña"));
 
-
         // =======================================================
 
         // 3. Ejecución del Polimorfismo
