@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import model.Animal;
+import model.HornitoRinco;
 import model.Lobo;
 import model.Perro;
 import model.Rinoceronte;
@@ -25,6 +26,9 @@ public class App {
         // ZONA DE TRABAJO ESTUDIANTIL
         // Instrucción: Cada estudiante debe instanciar su animal aquí
         // Ejemplo: zoologico.add(new Leon("Simba"));
+
+            zoologico.add(new HornitoRinco("Perry"));
+
 
         zoologico.add(new Lobo("Robert"));
         zoologico.add(new Arana("Peter"));
