@@ -27,8 +27,7 @@ public class App {
         // Instrucción: Cada estudiante debe instanciar su animal aquí
         // Ejemplo: zoologico.add(new Leon("Simba"));
 
-            zoologico.add(new HornitoRinco("Perry"));
-
+        zoologico.add(new HornitoRinco("Perry"));
 
         zoologico.add(new Lobo("Robert"));
         zoologico.add(new Arana("Peter"));
